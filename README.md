@@ -1,4 +1,3 @@
-
 # PDF-query
 
 A simple web application that can help you query the documents you have uploaded in pdf form.
@@ -52,9 +51,5 @@ uvicorn main:app --reload
   - Request Body: JSON with a question
   - Response: JSON with the response message and ID
 
-## Documentation
-
-- Swagger Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
-- GUI: [http://localhost:8000/render](http://localhost:8000/render)
 
 
